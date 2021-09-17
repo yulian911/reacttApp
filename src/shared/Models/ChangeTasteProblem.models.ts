@@ -1,0 +1,21 @@
+export interface IChangeTasteProblem {
+    id: number,
+    bitter_problem: number,
+    sour_problem: number,
+    salty_problem: number,
+    sweet_problem: number,
+    umami_problem: number,
+    meat_problem: number,
+    fat_food_problem: number,
+    lowered_appetite: number,
+    hot_meal_problem: number,
+    nausea_hypersensitivity: number,
+    bitter_taste_in_mouth: number,
+    everything_is_bitter: number,
+    unpleasant_taste_in_mouth: number,
+    food_not_taste_as_should: number,
+    everything_taste_bad: number,
+    eat_difficulty: number,
+    no_taste_or_smell: number,
+    user: number
+}
